@@ -20,32 +20,33 @@
     padding-top: 20px;
 }
 
-.info-cards__card-content--bottom {
-    justify-content: end;
-  }
-
 body {
     background-color: #1E3835;
 }
 
 h2 {
     color: white;
+    font-family: "Outfit", serif;
 }
 
 p {
     color: white;
+    font-family: "Outfit", serif;
 }
 
 .card p {
     color: black;
+    font-family: "Outfit", serif;
 }
 
 h4 {
     color: white;
+    font-family: "Outfit", serif;
 }
 
 h5 {
     color: white;
+    font-family: "Outfit", serif;
 }
 
 .review h4 {
@@ -53,10 +54,12 @@ h5 {
 }
 
 .custom-search-width {
+    font-family: "Outfit", serif;
     width: 500px;
 }
 
 .submit-button {
+    font-family: "Outfit", serif;
     background-color: #FFB56B;
     border: none;
     color: black;
@@ -70,6 +73,7 @@ h5 {
 
 .navbar a {
     color: white;
+    font-family: "Outfit", serif;
 }
 
 .navbar .home {
@@ -77,10 +81,12 @@ h5 {
 }
 
 .search-button {
+    font-family: "Outfit", serif;
     background-color: #FFB56B;
     border: none;
     color: black;
 }
+
 
 .footer-text {
     margin-top: 20px;
@@ -120,4 +126,8 @@ h5 {
 
 .whyduwun {
     margin-top: 40px;
+}
+
+.font {
+    font-family: "Outfit", serif;
 }
