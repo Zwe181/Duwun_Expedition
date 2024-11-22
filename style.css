@@ -1,0 +1,123 @@
+.main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.review {
+    padding-top: 20px;
+}
+
+.custom-search-width {
+    width: 300px;
+}
+
+.newsletter {
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.why-duwun {
+    padding-top: 20px;
+}
+
+.info-cards__card-content--bottom {
+    justify-content: end;
+  }
+
+body {
+    background-color: #1E3835;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.card p {
+    color: black;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+.review h4 {
+    color: black;
+}
+
+.custom-search-width {
+    width: 500px;
+}
+
+.submit-button {
+    background-color: #FFB56B;
+    border: none;
+    color: black;
+}
+
+.navbar {
+    background-color: #1E3835 !important;
+    padding: 20px 30px 20px;
+
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .home {
+    color: white !important;
+}
+
+.search-button {
+    background-color: #FFB56B;
+    border: none;
+    color: black;
+}
+
+.footer-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-color {
+    background-color: #819BA8;
+    margin-top: 40px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.footer-row p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.footer-row {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.paragraph {
+    margin-top: 40px;
+    
+}
+
+.email {
+    margin-top: 40px;
+}
+
+.whyduwun {
+    margin-top: 40px;
+}
