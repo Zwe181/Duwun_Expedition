@@ -16,8 +16,8 @@
     padding-bottom: 8px;
 }
 
-.why-duwun {
-    padding-top: 20px;
+.fa-star {
+    color: #FFB56B;
 }
 
 body {
@@ -27,6 +27,12 @@ body {
 h2 {
     color: white;
     font-family: "Outfit", serif;
+}
+
+h6 {
+    color: white;
+    font-family: "Outfit", serif;
+    font-weight: bold;
 }
 
 p {
@@ -124,8 +130,9 @@ h5 {
     margin-top: 40px;
 }
 
-.whyduwun {
+.why-duwun {
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .font {
@@ -304,4 +311,76 @@ h5 {
     color: #57382B;
     font-weight: bold;
     border-color: transparent;
+}
+
+.pioneer {
+    margin-bottom: 120px;
+    margin-left: 150px;
+    color: #FFB56B;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Oswald", serif;
+}
+
+.pioneer1 {
+    margin-bottom: 48px;
+    margin-left: 150px;
+    color: #FFB56B;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Oswald", serif;
+}
+
+.duwun {
+    font-size: 20px;
+}
+
+.icons {
+    font-size: 32px;
+    padding-right: 6px;
+}
+
+.trip-itinerary {
+    margin-top: 40px;
+}
+
+.itinerary {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.trip1 {
+    margin-top: 20px;
+}
+
+.included {
+    border: 2px solid #FFB56B;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.view-trip1 {
+    background-color: #d9d9d9;
+    font-family: "Outfit", serif;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #57382B;
+    font-weight: bold;
+    border-color: transparent;
+}
+
+.view-trip2 {
+    background-color: #FFB56B;
+    font-family: "Outfit", serif;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #57382B;
+    font-weight: bold;
+    border-color: transparent;
+}
+
+.cta {
+    margin-top: 40px;
 }
