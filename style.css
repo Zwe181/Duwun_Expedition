@@ -96,6 +96,7 @@ h5 {
 .footer-color {
     background-color: #819BA8;
     margin-top: 40px;
+    paddding-bottom: 20px;
 }
 
 .logo {
@@ -111,7 +112,6 @@ h5 {
 }
 
 .footer-row {
-    margin-bottom: 20px;
     padding-bottom: 20px;
 }
 
@@ -130,4 +130,178 @@ h5 {
 
 .font {
     font-family: "Outfit", serif;
+}
+
+.sceneries {
+    margin-left: 30px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.customize {
+    margin-left: 30px;
+    color: white;
+    margin-bottom: 90px;
+} 
+
+
+.para1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.para2 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    color: white;
+}
+
+.para3 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px
+    color: white;
+}
+
+.addons {
+    margin-left: 30px;
+    margin-bottom: 90px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.para4 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px
+    color: white;
+}
+
+.para5 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.cities {
+    margin-left: 30px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    margin-bottom: 90px;
+}
+
+.para6 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.why1 {
+    color: white;
+}
+
+.why2 {
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.toptext {
+    padding-top: 40px;
+    font-family: "Outfit", serif;
+    font-weight: bold;
+    color: #FFB56B;
+}
+
+.discovertext {
+    font-family: "Outfit", serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.search {
+    font-family: "Outfit", serif;
+    color: #FFB56B;
+    padding-bottom: 20px;
+}
+
+.row1 {
+    margin-bottom: 20px;
+}
+
+.row2 p {
+    vertical-align: middle;
+}
+
+.filter2 {
+    background-color: #1E3835;
+    color: white;
+}
+
+.toggle {
+    background-color: transparent;
+    border-color: transparent;
+    display: block;
+}
+
+.trips {
+    height: 400px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+}
+
+.cardimages {
+    height: 400px;
+    width: 300px;
+    border-radius: 20px 0 0 20px !important;
+}
+
+.cardbigtitle {
+    font-family: "Outfit", serif;
+    color: #1E3835;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 12px;
+}
+
+.card-title {
+    margin-top: 16px;
+}
+
+.card-text {
+    margin-bottom: 2px !important;
+}
+
+.card-body {
+    padding-top: 0;
+}
+
+.price {
+    color: #57382B;
+}
+
+.none {
+    color: transparent;
+}
+
+.view-trip {
+    background-color: #FFB56B;
+    font-size: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #57382B;
+    font-weight: bold;
+    border-color: transparent;
 }

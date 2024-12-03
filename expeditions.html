@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="style.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/077963f68d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Duwun Expedition</title>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary top-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Duwun Expedition</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav nav-underline me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active home" aria-current="page" href="expeditions.html">Expeditions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 font" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success search-button" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="toptext">Find your perfect trip across Canada</h1>
+        <p class="discovertext">
+            discover the wonder of the nature in Canada with our experienced local guides,
+            accommodations, and itineraries.</p>
+    </div>
+
+    <div class="container">
+        <h3 class="search">Search Expeditions</h3>
+
+        <div class="row row1">
+            <div class="col-md-5">
+                <input class="form-control me-2 destination" type="search" placeholder="Destination"
+                    aria-label="Search">
+            </div>
+            <div class="col-md-5">
+                <input class="form-control me-2 destination" type="search" placeholder="Date" aria-label="Search">
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-outline-success search-button" type="submit">Search Expeditions</button>
+            </div>
+        </div>
+
+        <div class="row row2">
+            <p class="col-md-8">Showing 100 results</p>
+            <p class="col-md-2">Currency: CAD</p>
+            <div class="col-md-2">
+                <button class="btn btn-secondary dropdown-toggle toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Sort
+                </button>
+
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Price: Low to High</a></li>
+                    <li><a class="dropdown-item" href="#">Price: High to Low</a></li>
+                    <li><a class="dropdown-item" href="#">Most Relevant</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h4 class="filter">Filter</h4>
+                <h5 class="filter1">Expeditions</h5>
+
+                <button class="btn btn-secondary dropdown-toggle toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Desitinations
+                </button>
+
+                <ul class="dropdown-menu filter2">
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Ontario
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Quebec
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Alberta
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Nova Scotia
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            New Brunswick
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Manitoba
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            British Columbia
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Prince Edward Island
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Saskatchewan
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Newfoundland and Labrador
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Northwest Territories
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Yukon
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Nunavut
+                        </label>
+                    </li>
+                </ul>
+
+
+
+                <button class="btn btn-secondary dropdown-toggle toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Durations
+                </button>
+                <ul class="dropdown-menu filter2">
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            A few days
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Weeks
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Months
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Year long
+                        </label>
+                    </li>
+                </ul>
+
+                <button class="btn btn-secondary dropdown-toggle toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Activities
+                </button>
+                <ul class="dropdown-menu filter2">
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Wild Life Viewing
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            City Sightseeing
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Sport
+                        </label>
+                    </li>
+                    <li> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Adventures
+                        </label>
+                    </li>
+                </ul>
+
+
+
+            </div>
+            <div class="col-md-9">
+                <div class="card mb-3 trips" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Assignment2/quebec.jpg" class="img-fluid rounded-start cardimages"
+                                alt="QuebecCity">
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="cardbigtitle">Quebec Sightseeing</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Itinerary</h5>
+                                        <p class="card-text">11 Days</p>
+                                        <p class="card-text">Nov5-15, 2024</p>
+                                        <h5 class="card-title">Tour Language</h5>
+                                        <p class="card-text">English, French</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Visiting</h5>
+                                        <p class="card-text">Montreal, Quebec City</p>
+                                        <p class="card-text">Ottawa</p>
+                                        <h5 class="card-title">Activities</h5>
+                                        <p class="card-text">City Sightseeing, Festival</p>
+                                        <p class="card-text">Photography, +more</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h2 class="price">From $1,800CAD</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 none">
+                                    None
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-outline-success view-trip" type="submit">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 trips" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Assignment2/quebec.jpg" class="img-fluid rounded-start cardimages"
+                                alt="QuebecCity">
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="cardbigtitle">Quebec Sightseeing</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Itinerary</h5>
+                                        <p class="card-text">11 Days</p>
+                                        <p class="card-text">Nov5-15, 2024</p>
+                                        <h5 class="card-title">Tour Language</h5>
+                                        <p class="card-text">English, French</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Visiting</h5>
+                                        <p class="card-text">Montreal, Quebec City</p>
+                                        <p class="card-text">Ottawa</p>
+                                        <h5 class="card-title">Activities</h5>
+                                        <p class="card-text">City Sightseeing, Festival</p>
+                                        <p class="card-text">Photography, +more</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h2 class="price">From $1,800CAD</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 none">
+                                    None
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-outline-success view-trip" type="submit">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 trips" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Assignment2/quebec.jpg" class="img-fluid rounded-start cardimages"
+                                alt="QuebecCity">
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="cardbigtitle">Quebec Sightseeing</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Itinerary</h5>
+                                        <p class="card-text">11 Days</p>
+                                        <p class="card-text">Nov5-15, 2024</p>
+                                        <h5 class="card-title">Tour Language</h5>
+                                        <p class="card-text">English, French</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Visiting</h5>
+                                        <p class="card-text">Montreal, Quebec City</p>
+                                        <p class="card-text">Ottawa</p>
+                                        <h5 class="card-title">Activities</h5>
+                                        <p class="card-text">City Sightseeing, Festival</p>
+                                        <p class="card-text">Photography, +more</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h2 class="price">From $1,800CAD</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 none">
+                                    None
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-outline-success view-trip" type="submit">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 trips" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Assignment2/quebec.jpg" class="img-fluid rounded-start cardimages"
+                                alt="QuebecCity">
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="cardbigtitle">Quebec Sightseeing</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Itinerary</h5>
+                                        <p class="card-text">11 Days</p>
+                                        <p class="card-text">Nov5-15, 2024</p>
+                                        <h5 class="card-title">Tour Language</h5>
+                                        <p class="card-text">English, French</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Visiting</h5>
+                                        <p class="card-text">Montreal, Quebec City</p>
+                                        <p class="card-text">Ottawa</p>
+                                        <h5 class="card-title">Activities</h5>
+                                        <p class="card-text">City Sightseeing, Festival</p>
+                                        <p class="card-text">Photography, +more</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h2 class="price">From $1,800CAD</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 none">
+                                    None
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-outline-success view-trip" type="submit">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer-color">
+        <div class="container">
+            <div class="logo">Duwun Expedition</div>
+            <div class="row footer-row">
+                <div class="col-md-3">
+                    <h5 class="footer-text">
+                        <b>About Us</b>
+                    </h5>
+                    <p>Why us</p>
+                    <p>Territorial Acknowledgement</p>
+                    <p>Awards</p>
+                    <p>Partnerships</p>
+                    <p>Media</p>
+                    <p>Travel Membership</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-text">
+                        <b>Privacy</b>
+                    </h5>
+                    <p>Terms and Conditions</p>
+                    <p>EULA</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-text">
+                        <b>Duwun</b>
+                    </h5>
+                    <p>Careers</p>
+                    <p>Blogs</p>
+                    <p>Sustainability</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-text">
+                        <b>Contact Us</b>
+                    </h5>
+                    <p>+1(123)123-4567</p>
+                    <p>info@duwun.ca</p>
+                    <h5 class="footer-text">
+                        <b>Check our social</b>
+                    </h5>
+                    <p><i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-square-instagram"></i> <i
+                            class="fa-brands fa-square-x-twitter"></i> <i class="fa-brands fa-square-youtube"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
