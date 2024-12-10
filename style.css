@@ -102,7 +102,7 @@ h5 {
 .footer-color {
     background-color: #819BA8;
     margin-top: 40px;
-    paddding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .logo {
@@ -399,7 +399,7 @@ h5 {
 
 .hero {
     top: 500px;
-    left: 250px;
+    left: 350px;
 }
 
 .hero h1 {
@@ -410,7 +410,7 @@ h5 {
 
 .hero1 {
     top: 350px;
-    left: 250px;
+    left: 350px;
 }
 
 .hero1 h1 {
@@ -525,7 +525,7 @@ h5 {
 }
 
 .view-trip4 {
-    border: white solid 2px;
+    
     background-color: #FFB56B;
     color: #57382B;
     font-weight: bold;
